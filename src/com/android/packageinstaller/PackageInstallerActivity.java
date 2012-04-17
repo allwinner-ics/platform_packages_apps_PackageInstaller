@@ -140,7 +140,9 @@ public class PackageInstallerActivity extends Activity implements OnCancelListen
                     .setPositiveButton(R.string.settings, new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int which) {
                             Log.i(TAG, "Launching settings");
-                            launchSettingsAppAndFinish();
+							Settings.Secure.putInt(getContentResolver(),
+								Settings.Secure.INSTALL_NON_MARKET_APPS,1);
+                            initiateInstall();
                         }
                     })
                     .setOnCancelListener(this)

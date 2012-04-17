@@ -64,11 +64,11 @@
     <string name="launch">Open</string>
     <string name="unknown_apps_dlg_title">Install blocked</string>
     <!-- Message presented in a dialog box when a package is requested to be installed, but the "Allow unknown applications" checkbox is not enabled. [CHAR LIMIT=100] -->
-    <string name="unknown_apps_dlg_text" product="tablet">For security, your tablet is set to block installation of applications not obtained from Android Market.</string>
+    <string name="unknown_apps_dlg_text" product="tablet">For security , your Tablet is set to block the installation of unofficial channels to the application. Lift the ban can install any application of the channel, but your Tablet and personal data more vulnerable to the attack of the application obtained from an unknown source, you will be the likely consequences to bear full responsibility\n\nYou can also through the "system Settings->security->unknown sources" to modify this setting.</string>
     <!-- Message presented in a dialog box when a package is requested to be installed, but the "Allow unknown applications" checkbox is not enabled. [CHAR LIMIT=100] -->
-    <string name="unknown_apps_dlg_text" product="default">For security, your phone is set to block installation of applications not obtained from Android Market.</string>
+    <string name="unknown_apps_dlg_text" product="default">For security , your phone is set to block the installation of unofficial channels to the application. Lift the ban can install any application of the channel, but your Tablet  and personal data more vulnerable to the attack of the application obtained from an unknown source, you will be the likely consequences to bear full responsibility\n\nYou can also through the "system Settings->security->unknown sources" to modify this setting.</string>
     <string name="ok">OK</string>
-    <string name="settings">Settings</string>
+    <string name="settings">Remove ban</string>
     <!-- Title of dialog asking user if they would allow an application to be an install source. -->
     <string name="allow_source_dlg_title">Allow new source for apps?</string>
     <!-- Message of dialog asking user if they would allow an application to be an install source. -->
